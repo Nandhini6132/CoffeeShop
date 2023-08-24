@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee shop</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script src="https://kit.fontawesome.com/48b638308b.js" crossorigin="anonymous"></script>
+  </head>
+  <style>
+    .head {
+      height: 100vh;
+      width: 100vw;
+      background-image: url(../images/COFFEE.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .img {
+      border-radius: 50%;
+      height: 180px;
+      width: 180px;
+    }
+    .image:hover {
+      background-color: rgb(17, 17, 13);
+      color: black;
+    }
+
+    span {
+      color: rgb(232, 181, 13);
+    }
+    .img_r {
+      border-radius: 50%;
+      height: 120px;
+      width: 120px;
+    }
+  </style>
+
+  <body>
+    <!--Head section-->
+
+    <nav class="navbar navbar-expand-lg">
+      <div
+        class="container-fluid bg-secondary p-2"
+        style="position: fixed; top: 0"
+      >
+        <a class="navbar-brand text-white" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link text-white" href="#">Home</a>
+            <a class="nav-link text-white" href="#About">About</a>
+            <a class="nav-link text-white" href="#Menu">Menu</a>
+            <a class="nav-link text-white" href="#reviews">Review</a>
+            <a class="nav-link text-white" href="#contact">Contact</a>
+          </div>
+          <div class="text-white mx-3">
+          <a href="#" class="text-white">  <i class="fa-solid fa-cart-shopping fa-lg"></i></a>
+        
+        
+        </div>
+        </div>
+      </div>
+    </nav>
+    <div class="head container-fluid">
+      <div class="content p-5">
+        <div
+          class="d-flex flex-column align-items-start justify-content-end p-5"
+          style="height: 500px"
+        >
+          <h1 class="text-white pt-5">
+            <span>FRESH COFFEE </span> IN THE MORNING
+          </h1>
+          <p class="text-white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+            voluptatibus unde doloribus! Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Iure, esse!
+          </p>
+          <button type="button" class="btn btn-lg bg-warning text-white">
+            GET IT NOW
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--End Head Section-->
+
+    <div class="Main bg-dark text-center pt-5">
+      <!---ABOUT SECTION-->
+      <div class="About">
+        <h1 class="text-white" id="About"><span>ABOUT </span>US</h1>
+        <div class="img_content row">
+          <img src="../images/red_coffee.jpg" class="pt-4 col-md-6" alt="about_coffee" />
+          <div class="text col-md-6 mt-lg-5 pt-lg-5 p-lg-5">
+            <h1 class="h1 text-white">What Makes Our Coffee Special?</h1>
+            <p class="text-white mt-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio temporibus vitae aspernatur tenetur nulla doloribus
+              cumque incidunt. Minima quo corrupti deserunt voluptatibus?
+              Asperiores debitis ab ullam est quo itaque tempora amet numquam
+              nisi, cupiditate adipisci quasi aperiam reprehenderit architecto
+              non libero praesentium quod excepturi officiis autem quisquam quis
+              inventore quidem.
+            </p>
+            <button type="button" class="btn btn-warning mt-5">
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--END ABOUT SECTION-->
+
+      <!--MENU-->
+      <div class="menu">
+        <h1 class="text-white text-center mt-5" id="Menu">
+          OUR <span>MENU</span>
+        </h1>
+        <div class="images row">
+          <div class="image1 d-inline-block col-12 col-md-4 pt-4 image p-0">
+            <img src="../images/green_coffee.jpg" alt="green_coffee" class="img" />
+            <h3 class="text-white pt-4">Tasty And Healthy</h3>
+            <h4 class="text-white">
+              &dollar;15.90 <del class="h6">$18.80</del>
+            </h4>
+            <button type="button" class="btn btn-warning mt-3 mb-4">
+              Add To Cart
+            </button>
+          </div>
+
+          <!--Image2-->
+          <div class="image2 d-inline-block col-12 col-md-4 pt-4 image">
+            <img src="../images/red_coffee.jpg" alt="capacunio" class="img" />
+            <h3 class="text-white pt-4">Tasty And Healthy</h3>
+            <h4 class="text-white">
+              &dollar;15.90 <del class="h6">$18.80</del>
+            </h4>
+            <button type="button" class="btn btn-warning mt-3 mb-4">
+              Add To Cart
+            </button>
+          </div>
+
+          <!--Image3-->
+          <div class="image3 d-inline-block col-12 col-md-4 pt-4 image">
+            <img src="../images/blackcoffee.jpg" alt="black coffee" class="img" />
+            <h3 class="text-white pt-4">Tasty And Healthy</h3>
+            <h4 class="text-white">
+              &dollar;15.90 <del class="h6">$18.80</del>
+            </h4>
+            <button type="button" class="btn btn-warning mt-3 mb-4">
+              Add To Cart
+            </button>
+            <!--END MENU-->
+          </div>
+        </div>
+        <!--SECOND ROW IMAGES-->
+        <!--Image4-->
+        <div class="images row">
+          <div class="image1 d-inline-block col-12 col-md-4 pt-4 image">
+            <img src="../images/coffee5.jfif" alt="coffee5" class="img" />
+            <h3 class="text-white pt-4">Tasty And Healthy</h3>
+            <h4 class="text-white">
+              &dollar;15.90 <del class="h6">$18.80</del>
+            </h4>
+            <button type="button" class="btn btn-warning mt-3 mb-4">
+              Add To Cart
+            </button>
+          </div>
+
+          <!--Image5-->
+          <div class="image1 d-inline-block col-12 col-md-4 pt-4 image">
+            <img src="../images/green_coffee.jpg" alt="green_coffee" class="img" />
+            <h3 class="text-white pt-4">Tasty And Healthy</h3>
+            <h4 class="text-white">
+              &dollar;15.90 <del class="h6">$18.80</del>
+            </h4>
+            <button type="button" class="btn btn-warning mt-3 mb-4">
+              Add To Cart
+            </button>
+          </div>
+
+          <!--Image6-->
+          <div class="image2 d-inline-block col-12 col-md-4 pt-4 image">
+            <img src="../images/about_coffee.jfif" alt="capacunio" class="img" />
+            <h3 class="text-white pt-4">Tasty And Healthy</h3>
+            <h4 class="text-white">
+              &dollar;15.90 <del class="h6">$18.80</del>
+            </h4>
+            <button type="button" class="btn btn-warning mt-3 mb-4">
+              Add To Cart
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--END MENU-->
+
+      <!--Reviews-->
+      <div class="reviews mt-5 row" id="reviews">
+        <h1 class="text-white">CUSTOMER'S <span>REVIEW</span></h1>
+        <div class="review1 col-12 col-md-4">
+          <p class="text-white pt-5 ps-5 pe-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+            dolorum possimus laborum voluptate vero magnam consectetur molestias
+            recusandae iusto sunt. Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Maxime, quidem veritatis! Vero, illo
+            necessitatibus! Quibusdam sed pariatur ratione quos in.
+          </p>
+          <img src="../images/about_coffee.jfif" alt="capacunio" class="img_r" />
+          <h3 class="text-white pt-3">William</h3>
+        </div>
+
+        <!--Review2-->
+        <div class="review2 col-12 col-md-4">
+          <p class="text-white pt-5 ps-5 pe-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+            dolorum possimus laborum voluptate vero magnam consectetur molestias
+            recusandae iusto sunt. Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Maxime, quidem veritatis! Vero, illo
+            necessitatibus! Quibusdam sed pariatur ratione quos in.
+          </p>
+          <img src="../images/coffee5.jfif" alt="capacunio" class="img_r" />
+          <h3 class="text-white pt-3">William</h3>
+        </div>
+
+        <!--Review3-->
+        <div class="review3 col-12 col-md-4">
+          <p class="text-white pt-5 ps-5 pe-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+            dolorum possimus laborum voluptate vero magnam consectetur molestias
+            recusandae iusto sunt. Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Maxime, quidem veritatis! Vero, illo
+            necessitatibus! Quibusdam sed pariatur ratione quos in.
+          </p>
+          <img src="../images/green_coffee.jpg" alt="capacunio" class="img_r" />
+          <h3 class="text-white pt-3">William</h3>
+        </div>
+      </div>
+      <!--End Reviews-->
+
+      <!--Contact-->
+      <div class="contact mt-5" id="contact">
+        <h1 class="text-white"><span>LOCATE</span> US</h1>
+        <iframe
+          class="mt-3"
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11211.917419450027!2d78.71487952398006!3d12.94508094387939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssbi%20pernambet!5e0!3m2!1sen!2sin!4v1690778903852!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <!--End Contact-->
+
+      <!--Footer-->
+      <div class="footer mt-3 bg-secondary">
+        <p class="text-white lead">All Rights resevered; copyrights &copy;</p>
+      </div>
+      <!--End Footer-->
+    </div>
+
+    <!-- <script src="/js/bootstrap.min.js"></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
